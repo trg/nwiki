@@ -1,8 +1,7 @@
 nwiki
 =====
 
-A wiki written in node.  Supports auto-linking + saves previous versions.
-
+A wiki written in node.
 
 
 To Run
