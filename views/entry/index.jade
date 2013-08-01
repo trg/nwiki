@@ -1,0 +1,6 @@
+extends ../layout
+
+block content
+  each entry in entries
+    a(href='/#{entry.title}')= entry.title
+    &nbsp;

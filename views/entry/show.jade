@@ -1,0 +1,9 @@
+extends ../layout
+
+block more_links
+  li
+    a(href="/#{entry.title}/edit") Edit
+
+block content
+  h1= entry.title
+  p= entry.body

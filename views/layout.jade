@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    title= title
+    //link(rel='stylesheet', href='/vendor/bootstrap/css/bootstrap.min.css')
+    //link(rel='stylesheet', href='/vendor/bootstrap/css/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  
+  body
+    ul.inline
+      li
+        a(href="/") List
+      li
+        a(href="/new") New
+      block more_links
+      
+    .content
+      block content
+
+
+  script(src='/vendor/bootstrap/js/bootstrap.min.js')
