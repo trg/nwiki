@@ -12,4 +12,4 @@ To Run
     
     $ npm install
     
-    $ coffee server.coffee
+    $ coffee app.coffee
