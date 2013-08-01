@@ -7,7 +7,7 @@ path = require 'path'
 mongoose = require 'mongoose'
 
 
-mongoose.connect 'mongodb://localhost/nwikidb'
+mongoose.connect 'mongodb://localhost/wikidb'
 app = express();
 
 
